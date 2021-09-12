@@ -1,0 +1,500 @@
+  361  history > history.txt
+  362  git status
+  363  git add history.txt 
+  364  git commit -m "added history"
+  365  git log
+  366  git checkout milkshakes
+  367  git branch
+  368  git checkout milkshake-flavours
+  369  git branch
+  370  git log
+  371  ls
+  372  nano README.md 
+  373  git add README.md 
+  374  git commit -m "random readme changes"
+  375  git checkout history
+  376  cat README.md 
+  377  rm README.md 
+  378  echo "booya" > README.md
+  379  git status
+  380  git add README.md 
+  381  git commit -m "rewrote readme"
+  382  git branch
+  383  git checkout master
+  384  ls
+  385  git log
+  386  git checkout milkshake-flavours
+  387  ls
+  388  git log
+  389  git checkout history
+  390  ls
+  391  git log
+  392  git checkout master
+  393  git merge milkshake-flavours
+  394  ls
+  395  git log
+  396  git branch
+  397  git merge history
+  398  gti checkout history
+  399  git checkout history
+  400  cat README.md 
+  401  nano README.md 
+  402  ls
+  403  rm README
+  404  ls
+  405  nano README.md 
+  406  cat README.md 
+  407  git commit
+  408  git status
+  409  git add README.md 
+  410  git commit
+  411  git status
+  412  git commit -m "fixed conflit"
+  413  git status
+  414  git log
+  415  git status
+  416  git branch
+  417  git checkout history
+  418  git log
+  419  git checkout milkshake-flavours
+  420  git log
+  421  ls
+  422  git remote add origin https://github.com/Nathi72TcF/git-basic-exercises.git
+  423  git branch -M main
+  424  git push -u origin main
+  425  cd ..
+  426  ls
+  427  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  428  ls
+  429  cd a-repo-to-clone/
+  430  ls
+  431  git status
+  432  git log
+  433  git branch
+  434  cd ..
+  435  cd a-repo-to-clone/
+  436  git branch -a
+  437  cd ..
+  438  cd a-repo-to-clone/
+  439  ls
+  440  git checkout master
+  441  git remote -v
+  442  cd ..
+  443  ls
+  444  cd git-basic-exercises/
+  445  ls
+  446  git log
+  447  q
+  448  pwd
+  449  cd ..
+  450  ls
+  451  mkdir this-will-be-another-repo
+  452  ls
+  453  cd this-will-be-another-repo/
+  454  ls
+  455  ls -a
+  456  git init
+  457  ls
+  458  pwd
+  459  ls -a
+  460  touch README.md
+  461  ls
+  462  git status
+  463  git add README.md
+  464  git status
+  465  git commit -m "initial commit"
+  466  pwd
+  467  cd ..
+  468  ls
+  469  cd git-basic-exercises/
+  470  ls
+  471  git log
+  472  pwd
+  473  touch ignore-me.db
+  474  ls
+  475  git status
+  476  nano gitignore
+  477  git status
+  478  mkdir large-directory-that-should-be-local-only
+  479  ls
+  480  xs large-directory-that-should-be-local-only/
+  481  xs large-directory-that-should-be-local-only
+  482  ls
+  483  cd large-directory-that-should-be-local-only/
+  484  ls
+  485  nano README.md
+  486  cat README.md 
+  487  cd ..
+  488  git status
+  489  nano .gitignore
+  490  git status
+  491  git add .gitignore 
+  492  ls
+  493  git status
+  494  git add .gitignore 
+  495  nano .gitignore
+  496  git status
+  497  rm gitignore 
+  498  ls
+  499  git commit -m "added .gitignore"
+  500  git push
+  501  pwd
+  502  ls
+  503  cd git-basic-exercises/
+  504  ls
+  505  cat README.md 
+  506  ls
+  507  git status
+  508  git branch
+  509  git add README.md 
+  510  git status
+  511  git checkout main
+  512  git status
+  513  git commit -m "Resolved merge conflict"
+  514  git checkout main
+  515  git push
+  516  ls
+  517  git branch
+  518  ls
+  519  cat README.md 
+  520  git status
+  521  git status
+  522  git branch
+  523  git status
+  524  git add README.md 
+  525  git commit -a
+  526  git commit -m "reslove conflict"
+  527  git push
+  528  git log
+  529  git branch
+  530  git checkout history
+  531  cat README.md 
+  532  ls
+  533  cat history.txt 
+  534  git checkout master
+  535  git checkout main
+  536  ls
+  537  pwd
+  538  cd ..
+  539  ls
+  540  git clone https://github.com/Umuzi-org/Nkosinathi-Mtshali-219-level-1-programming-katas-python.git
+  541  ls
+  542  cd Nkosinathi-Mtshali-219-level-1-programming-katas-python/
+  543  ls
+  544  cat README.md 
+  545  ls
+  546  git branch
+  547  git status
+  548  git pull
+  549  git checkout -b task/1
+  550  ls
+  551  cat README.md 
+  552  git status
+  553  git branch
+  554  nano hello
+  555  ls
+  556  cat hello 
+  557  rm hello 
+  558  nano hello.md
+  559  ls
+  560  cat hello.md 
+  561  git status
+  562  git add hello.md 
+  563  git status
+  564  git commit -m "initial push"
+  565  git push
+  566  git push --set-upstream origin task/1
+  567  sudo git push --set-upstream origin task/1
+  568  git push --set-upstream origin task/1
+  569  git branch
+  570  git checkout main
+  571  git pull
+  572  git checkout -b task/2
+  573  git branch
+  574  pwd
+  575  ls
+  576  touch task_1.1.py
+  577  ls
+  578  python3 task_1.1.py 
+  579  ls
+  580  python3 task_1.1.py 
+  581  python3 task_1.1.py 
+  582  python3 task_1.1.py 
+  583  ls
+  584  touch task_1.4.py
+  585  python3 task_1.4.py 
+  586  python3 task_1.4.py 
+  587  python3 task_1.4.py 
+  588  python3 task_1.1.py 
+  589  ls
+  590  touch task_1.2.py
+  591  touch task.py
+  592  python3 task.py 
+  593  python3 task.py 
+  594  python3 task.py 
+  595  python3 task.py 
+  596  python3 task.py 
+  597  python3 task.py 
+  598  python3 task.py 
+  599  touch task_1.3.py
+  600  python3 task.py 
+  601  python3 task.py 
+  602  python3 task.py 
+  603  python3 task.py 
+  604  python3 task.py 
+  605  python3 task_1.1.py 
+  606  python3 task.py 
+  607  python3 task.py 
+  608  python3 task.py 
+  609  python3 task_1.1.py 
+  610  python3 task_1.1.py 
+  611  python3 task_1.2.py 
+  612  python3 task_1.2.py 
+  613  python3 task_1.2.py 
+  614  python3 task_1.2.py 
+  615  python3 task_1.2.py 
+  616  python3 task_1.3.py 
+  617  python3 task_1.3.py 
+  618  ls
+  619  git status
+  620  git add task_1.1.py 
+  621  git add task_1.2.py 
+  622  git add task_1.3.py 
+  623  git add task_1.4.py 
+  624  git status
+  625  git commit -m "saving progress"
+  626  git push
+  627  git push --set-upstream origin task/2
+  628  ls
+  629  git push --set-upstream origin task/2
+  630  ls
+  631  python3 task_1.3.py 
+  632  python3 task_1.3.py 
+  633  python3 task_1.3.py 
+  634  python3 task_1.3.py 
+  635  touch task_1.5.py
+  636  python3 task_1.5.py 
+  637  python3 task_1.5.py 
+  638  python3 task_1.5.py 
+  639  python3 task_1.5.py 
+  640  python3 task_1.5.py 
+  641  python3 task_1.5.py 
+  642  python3 task_1.5.py 
+  643  python3 task_1.1.py 
+  644  python3 task_1.1.py 
+  645  python3 task_1.1.py 
+  646  python3 task_1.5.py 
+  647  touch task_1.6.py
+  648  python3 task_1.6.py 
+  649  python3 task_1.6.py 
+  650  python3 task_1.6.py 
+  651  python3 task_1.6.py 
+  652  python3 task.py 
+  653  python3 task_1.6.py 
+  654  python3 task_1.6.py 
+  655  python3 task_1.6.py 
+  656  python3 task_1.6.py 
+  657  python3 task_1.6.py 
+  658  python3 task_1.6.py 
+  659  python3 task_1.6.py 
+  660  python3 task_1.6.py 
+  661  python3 task_1.6.py 
+  662  python3 task_1.6.py 
+  663  python3 task_1.6.py 
+  664  python3 task_1.6.py 
+  665  python3 task_1.6.py 
+  666  python3 task_1.6.py 
+  667  python3 task_1.6.py 
+  668  python3 task_1.6.py 
+  669  python3 task_1.6.py 
+  670  python3 task_1.6.py 
+  671  python3 task_1.6.py 
+  672  python3 task_1.6.py 
+  673  python3 task_1.6.py 
+  674  python3 task_1.6.py 
+  675  python3 task_1.6.py 
+  676  python3 task_1.6.py 
+  677  python3 task_1.6.py 
+  678  python3 task_1.6.py 
+  679  python3 task_1.6.py 
+  680  python3 task_1.6.py 
+  681  python3 task_1.6.py 
+  682  python3 task_1.6.py 
+  683  python3 task_1.6.py 
+  684  python3 task_1.6.py 
+  685  python3 task_1.6.py 
+  686  python3 task_1.6.py 
+  687  python3 task_1.6.py 
+  688  python3 task_1.6.py 
+  689  python3 task_1.6.py 
+  690  python3 task_1.6.py 
+  691  python3 task_1.6.py 
+  692  python3 task_1.6.py 
+  693  python3 task_1.6.py 
+  694  python3 task_1.6.py 
+  695  python3 task_1.6.py 
+  696  ls
+  697  touch task_1.7.py
+  698  git status
+  699  python3 task.py 
+  700  python3 task_1.7.py 
+  701  python3 task_1.7.py 
+  702  python3 task_1.7.py 
+  703  python3 task_1.7.py 
+  704  python3 task_1.7.py 
+  705  python3 task_1.6.py 
+  706  python3 task_1.6.py 
+  707  python3 task_1.6.py 
+  708  python3 task_1.6.py 
+  709  python3 task_1.6.py 
+  710  python3 task_1.6.py 
+  711  python3 task_1.6.py 
+  712  python3 task_1.6.py 
+  713  python3 task_1.6.py 
+  714  python3 task_1.6.py 
+  715  python3 task_1.6.py 
+  716  python3 task_1.6.py 
+  717  python3 task_1.6.py 
+  718  python3 task_1.6.py 
+  719  python3 task_1.6.py 
+  720  python3 task_1.6.py 
+  721  python3 task_1.6.py 
+  722  python3 task_1.6.py 
+  723  python3 task_1.6.py 
+  724  python3 task_1.6.py 
+  725  python3 task_1.6.py 
+  726  python3 task_1.6.py 
+  727  python3 task_1.6.py 
+  728  python3 task_1.6.py 
+  729  python3 task_1.7.py 
+  730  python3 task_1.7.py 
+  731  python3 task_1.7.py 
+  732  python3 task_1.7.py 
+  733  python3 task_1.7.py 
+  734  python3 task_1.7.py 
+  735  python3 task_1.7.py 
+  736  python3 task_1.7.py 
+  737  python3 task_1.7.py 
+  738  python3 task_1.7.py 
+  739  python3 task_1.7.py 
+  740  python3 task.py 
+  741  python3 task.py 
+  742  python3 task.py 
+  743  python3 task.py 
+  744  python3 task.py 
+  745  python3 task.py 
+  746  python3 task.py 
+  747  python3 task.py 
+  748  python3 task.py 
+  749  python3 task.py 
+  750  python3 task_1.7.py 
+  751  python3 task_1.7.py 
+  752  python3 task.py 
+  753  python3 task.py 
+  754  python3 task.py 
+  755  python3 task.py 
+  756  python3 task.py 
+  757  python3 task.py 
+  758  python3 task.py 
+  759  python3 task.py 
+  760  python3 task.py 
+  761  python3 task.py 
+  762  python3 task.py 
+  763  python3 task.py 
+  764  python3 task_1.7.py 
+  765  python3 task_1.5.py 
+  766  python3 task.py 
+  767  python3 task.py 
+  768  python3 task.py 
+  769  python3 task.py 
+  770  python3 task.py 
+  771  ls
+  772  cd ..
+  773  ls
+  774  cd git-basic-exercises/
+  775  ls
+  776  git branch
+  777  git branch -a
+  778  git status
+  779  git branch milkshake-flavours
+  780  git branch
+  781  git checkout milkshake-flavours
+  782  ls
+  783  ls -a
+  784  cat history.txt 
+  785  ls
+  786  cd milkshakes.md 
+  787  cat milkshakes.md 
+  788  cat ignore-me.db 
+  789  git status
+  790  git log
+  791  git checkout main
+  792  git branch
+  793  git merge milkshake-flavours
+  794  git log
+  795  git merge master
+  796  ls
+  797  cat README.md 
+  798  git status
+  799  git add README.md 
+  800  git status
+  801  git commit -m "merging all branches"
+  802  git push
+  803  pwd
+  804  cd ..
+  805  pwd
+  806  mkdir git-basic-exercises
+  807  ls
+  808  cd git-basic-exercises/
+  809  ls
+  810  ls -a
+  811  git init
+  812  ls -a
+  813  touch README.md
+  814  ls
+  815  ls -a
+  816  git status
+  817  git log
+  818  git branch
+  819  git branch main
+  820  git branch
+  821  git log
+  822  git add README.md 
+  823  git status
+  824  git commit -m "initial commit"
+  825  git loq
+  826  git log
+  827  ls
+  828  cat README.md 
+  829  cat README.md 
+  830  git status
+  831  git add README.md 
+  832  git commit -m "second commit"
+  833  ls
+  834  cat R
+  835  cat README.md 
+  836  git status
+  837  git add README.md 
+  838  ls
+  839  git status
+  840  git commit -m "third commit"
+  841  cat README.md 
+  842  git log
+  843  git checkout main
+  844  git checkout master
+  845  cat README.md 
+  846  git branch milkshake-flavours
+  847  git branch
+  848  git checkout milkshake-flavours
+  849  ls
+  850  cat README.md 
+  851  touch milkshakes.md
+  852  git status
+  853  git add milkshakes.md 
+  854  git commit -m "added initial flavours"
+  855  git log
+  856  git branch
+  857  git checkout master
+  858  git branch history
+  859  git branch
+  860  history > history.txt
